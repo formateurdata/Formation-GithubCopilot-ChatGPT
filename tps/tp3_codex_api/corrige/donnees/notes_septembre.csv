@@ -1,0 +1,9 @@
+date;salarie;categorie;montant;devise
+2026-09-02;Martin;repas;18.00;EUR
+2026-09-02;Martin;hotel;110;GBP
+2026-09-03;Martin;transport;42.30;EUR
+2026-09-03;Diallo;repas;32.00;EUR
+2026-09-04;Diallo;repas;26;USD
+2026-09-04;Diallo;taxi;15;EUR
+2026-09-05;Nguyen;repas;21,40;EUR
+2026-09-05;Nguyen;transport;250;USD

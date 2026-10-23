@@ -1,0 +1,13 @@
+{
+  "reference": "BOI-03",
+  "nom": "Macbook",
+  "caracteristiques": {
+    "matiere": "Aluminium",
+    "dimensions": "45 x 24 x 3 cm",
+    "couleur": "noir",
+    "Processeur": "Apple M1",
+    "RAM": "16 Go",
+    "Stockage": "512 Go",
+    "Carte graphique": "Apple M1 GPU"
+  }
+}
