@@ -1,0 +1,13 @@
+[
+  {
+    "reference": "CAB-01",
+    "nom": "Câble USB-C Ligne",
+    "caracteristiques": {"longueur": "1 m", "couleur": "noir"},
+    "fiche": {
+      "titre": "Câble USB-C Ligne noir, 1 m",
+      "description": "Le câble USB-C Ligne mesure 1 m. Il est proposé en noir.",
+      "points_forts": ["Longueur de 1 m", "Couleur noire"]
+    },
+    "statut": "valide"
+  }
+]

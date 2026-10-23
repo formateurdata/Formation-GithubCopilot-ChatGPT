@@ -1,0 +1,30 @@
+[project]
+name = "ghcg"
+version = "0.1.0"
+description = "Formation PLB GitHub Copilot et ChatGPT (GHCG) : slides, démos et TP"
+readme = "README.md"
+authors = [
+    { name = "Mouaad", email = "mouaad.agrm@gmail.com" }
+]
+requires-python = ">=3.12"
+# Bibliothèques utilisées par les démos et les TP (les mêmes que dans requirements.txt)
+dependencies = [
+    "openai>=2.0",
+    "pydantic>=2.8",
+    "pytest>=8.3",
+]
+
+[dependency-groups]
+# Outils du formateur : génération et contrôle des slides
+dev = [
+    "defusedxml>=0.7.1",
+    "lxml>=5.3",
+    "pillow>=11.0",
+    "python-pptx>=1.0.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "-q"

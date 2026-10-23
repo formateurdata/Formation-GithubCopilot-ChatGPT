@@ -1,0 +1,30 @@
+// Réglages conseillés pour la formation (TP1).
+// A copier dans les paramètres utilisateur : Command Palette > "Preferences: Open User Settings (JSON)".
+// Tous ces noms de réglages figurent dans la documentation VS Code (relevé du 09/10/2026).
+{
+  // Complétions actives partout, sauf dans les fichiers texte et Markdown où elles gênent la rédaction
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false
+  },
+
+  // Suggestions de la prochaine modification (NES) : propose la suite logique d'une modification
+  "github.copilot.nextEditSuggestions.enabled": true,
+  // NES propose aussi des corrections tirées des diagnostics (import manquant, etc.)
+  "github.copilot.nextEditSuggestions.fixes": true,
+
+  // Règles du projet prises en compte par le chat et les agents : AGENTS.md (format commun à plusieurs
+  // agents), et .github/copilot-instructions.md s'il existe
+  "chat.useAgentsMdFile": true,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+
+  // Afficher, pour chaque requête du chat, les fichiers modifiés et le nombre de lignes
+  "chat.checkpoints.showFileChanges": true,
+
+  // Être prévenu quand un agent attend une confirmation, même si la fenêtre est au premier plan
+  "chat.notifyWindowOnConfirmation": "always",
+
+  // Projection : police plus grande pour l'éditeur et le chat
+  "editor.fontSize": 16
+}
